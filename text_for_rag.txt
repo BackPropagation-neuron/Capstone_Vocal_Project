@@ -1,0 +1,94 @@
+f0_contour, f1_contour, f2_contour, f3_contour,
+rms_contour (긴 시계열 데이터)
+
+
+f0_mean, vibrato_rate_hz,
+ jitter_percent, shimmer_percent, hnr_db, rms_mean,
+  centroid_mean, mfcc_mean (단일 숫자 이거나, 짧은 데이터)
+
+
+
+Paper
+- The Acoustics of the Singing Voice
+- Acoustic Analysis of the Singing and Speaking Voice in Singing Students
+- Effects of Vocal Training on the Acoustic Parameters of the Singing Voice
+Singing Power Ratio: Quantitative Evaluation of Singing Voice Quality
+Jitter, Shimmer and HNR classification within gender, tones and vowels in healthy voices - FAIL
+A COMPREHENSIVE REVIEW OF JITTER, SHIMMER, AND HNR: LINGUISTIC AND PARALINGUISTIC APPLICATIONS - FAIL 
+Vocal Tract Resonance In Singing - FAIL
+- Formant Tuning Strategies in Professional Male Opera Singers
+The expression of emotion in the singing voice: Acoustic patterns in vocal performance - FAIL
+Interprofessional Approaches to Acoustic Voice Analysis
+
+Book
+Practical Vocal Acoustics Pedagogic Applications for Teachers and Singers
+THE PRINCIPLES OF VOICE PRODUCTION IN CHORAL SINGING; A GUIDE TO CONDUCTOR
+A Course in Phonetics - FAIL
+Your Voice: An Inside View by Scott McCoy pdf
+
+
+
+
+Acoustic Analysis of the Singing and Speaking Voice in Singing Students
+
+Summary: The singing power ratio (SPR) is an objective means of quantifying  
+the singer's formant. SPR has been shown to differentiate trained singers from  
+nonsingers and sung from spoken tones. This study was designed to evaluate  
+SPR and acoustic parameters in singing students to determine if the singer-in 
+training has an identifiable difference between sung and spoken voices. Digital  
+audio recordings were made of both sung and spoken vowel sounds in 55  
+singing students for acoustic analysis. SPR values were not significantly differ 
+ent between the sung and spoken samples. Shimmer and noise-to-harmonic ra 
+tio were significantly higher in spoken samples. SPR analysis may provide an  
+objective tool for monitoring the student's progress. Key Words: Singing  
+voice--Singing power ratio--Acoustic analysis--Jitter--Shimmer--Noise-to 
+harmonic ratio.  
+
+The classically trained singer strives to develop a  singer's formant that enhances the overall richness  and ringing in his or her voice. The singer's formant  is described as an increase in signal intensity be 
+between the third and fourth formants, allowing the  singer to be heard without amplification over sounds  of accompanying music. 1 The greatest harmonic  peak between 2 kHz and 4 kHz is roughly the center  frequency of the singer's formant. Despite many at 
+tempts at objectifying the singer's formant, no standard quantitative description is accepted. 2  The singing power ratio (SPR) has been described  as a quantitative measure of the resonant quality of  
+33101, USA.  
+the singing voice The SPR is defined as the ratio  between the highest intensity peak between 2 and 4  kHz and the highest intensity between 0 and 2 kHz.  Omori et a13 found that SPR values differentiated be 
+between the singing voices of the professional singer  and the nonsinger. SPR also differentiated the  singing and spoken voices of the professional singer.  
+It would be helpful to have a simple and reliable  measure to evaluate the progress of a singer's training toward the development of a perceptually rich vocal quality. Currently, standard acoustic measures of  vocal quality including jitter, shimmer, and noise-to harmonic ratio (NHR) may not adequately describe  the desired richness of the singer's voice. 4 It is not  known whether SPR represents a useful marker in  the training of the singing student. The purpose of  this investigation is to determine if singers-in-training have developed an SPR that differentiates the  sung and spoken voices.  
+
+
+METHODS  
+Singing students at the University of Miami School  of Music that denied vocal difficulties at the time of  testing were eligible for study. All subjects completed a comprehensive questionnaire detailing background medical, voice, and singing history. Each student provided singing and speaking vocal samples  that were analyzed for singing power ratio and standard measures of acoustic analysis.  
+Digital audio recordings were made of each student and analyzed for SPR and other acoustical data.  A TCD-D8 DAT recorder (Sony Electronics) with  compatible unidirectional dynamic microphone was  used for data acquisition using a standard distance  from voice to microphone of 6 inches. Each individual was asked to phonate a sustained/a/sound and  sing a sustained/a/sound at a comfortable pitch and  intensity level. Three consistent responses were  recorded. Data was then transferred to an IBM PC at  a sampling rate of 44.1 kHz. Power spectrum of standard clips of phonation and singing were calculated  using CSL software (Kay Elemetrics, Lincoln Park,  NJ) to perform the spectrum analysis. Fast Fourier  
+transformation (FFT) was performed on the spectrum to calculate intensity peaks between 0 and 2  kHz and 2 and 4 kHz. The power spectrum was then  divided into the 0-2 kHz and 2-4 kHz range in the  method of Omori et al. 3 SPR was calculated by dividing the singing power peak (greatest harmonic  peak between 2-4 kHz) by the greatest peak between  0 and 2 kHz. Acoustical analysis including fundamental frequency, jitter, shimmer, and NHR was per formed on the same singing and spoken samples utilizing the Multi-Dimensional Voice Program (MDVP)  
+software (Kay Elemetrics, Lincoln Park, NJ).  Statistical analysis was performed on all data sets using descriptive methods, standard Student's t test, and  one-way analysis of variance (ANOVA). SPSS statistical software (SPSS Corporation, Cupertino, Calif) was  utilized to compare subject data results between singing and spoken voices and to normative data sets.  
+RESULTS  
+Fifty-five singing students, 14 males and 41 females, participated in this study. The mean age of the  singers was 23.3 years with a range of 18-37 years.  
+Fifteen students were underclassmen (freshman/sophomore), 21 were upperclassmen (junior/senior), and 19  were graduate students.  
+Overall, SPR was 11.01 for singing tones and  11.49 for spoken tones (Table 1). No statistically significant difference was found between singing and  spoken SPR values in our sample (P>0.05). No significant gender difference was found between SPR  values for either singing or spoken samples. There  was no significant difference in SPR based on years  of training; underclassmen, upperclassmen and graduate students had similar results (Table 2).  
+Overall data for shimmer, jitter, and NHR were within normal limits as compared to normative data (Table  3). Shimmer values were significantly higher in spoken  tones than sung tones (P<0.05). This held trees for both  males and females. NHR was significantly higher in  spoken samples. There were no significant differences  for values of jitter between singing and spoken tones.  
+DISCUSSION  
+Development of the singer's formant is a fundamental goal of the classical singer-in-training. A  means of measuring progress toward that goal would  be highly beneficial. The singing power ratio as described by Omori et al 3 has been developed as an objective means of studying the "ringing" of the trained  singer's voice. In Omori and colleagues' initial evaluation, professional singers had significantly higher  SPR values than untrained singers. Furthermore, professional singers had higher SPR values in the  singing voice over the spoken voice, indicating that  SPR can represent the acoustic characteristics of  
+TABLE 1. SPR Values for Singing  
+and Spoken Samples  
+ 
+TABLE 2. SPR Values by Years of Training  
+TABLE 3. Acoustic Parameters  
+
+ 
+  
+singing voice quality. We were unable to replicate  these findings in this study as singing students did  not have significantly higher SPR values in singing  versus spoken samples.  
+If SPR truly represents a quantitative measure of  singing vocal quality, then the singing students in our  sample were unable to create this difference in the  singing voice over the normal speaking tone. Omori  identified a statistically significant difference in SPR  between singers with voice training of less than 4  years and singers versus those that had voice training  for more than 4 years. This may represent a training  effect in the development of a high-energy singer's  format over the period of singing education. Our da 
+ta as they exist do not encourage this explanation as  the findings in graduate students were not significantly different than other students. However, longitudinal  evaluation over the course of training in underclass 
+men would be necessary to answer this question.  If longitudinal assessment of SPR in singing students shows an improvement in SPR over the duration of singing training, then SPR may be useful as a  teaching tool for singing students. SPR may provide  additional objective data that use visual feedback as  an adjunct to the subjective evaluation of the singer's  format. It would be interesting in future studies to  
+ 
+evaluate singing students longitudinally to see if the  SPR increases with additional training, and if the  SPR can be raised in the singing voice with specific  attention to this parameter during vocal pedagogy.  
+Standard acoustic parameters are frequently utilized to depict characteristics of normal and abnormal voices. Their utility in describing the richness of  the singing voice, however, is not as clear. In this  study acoustic parameters were within normal limits.  Significantly higher NHR and shimmer values were  formed in the spoken voice over the singing voice. The  interpretation of this is unclear:  
+Three possible explanations for the normative  acoustic finding are hypothesized. First, while values  for speaking and sung voices were significantly different in this study, they remained within normal limits. Therefore, this finding may have little or no con sequence.  
+Second, the increase in noise values in the speaking voice which are not present in the singing voice,  may highlight a potential discrepancy between singing and speaking technique. Dissociation in technique  between the singing and speaking voice is a common etiology of future vocal problems as described  by Sataloff and Spiegel. 5 It would be important to  follow this over time, particularly if the singer devel 
+
+oped subjective complaints. Finally, the decreased  shimmer and NHR in singing may reflect improved  vocal quality during singing and therefore be useful  as a marker to study the singer in training. These pa 
+rameters may be more sensitive than SPR as a marker of early development of improved vocal quality. A  perceptual analysis of vocal quality should be investigated to see if the decreased NHR and shimmer are  correlated with a perceptually "richer" or "less thin"  vocal quality.  
+SPR values alone did not prove to separate singing  from spoken voices in this group of student singers.  This is in direct contrast to the Omori et ap study,  which found a significant difference in SPR values  between the singing and spoken voices in professional singers. This difference in findings may be attributed to the difference in the study populations.  Student singers may be further down the "learning  curve" in development of vocal richness as measured  by SPR. Longitudinal evaluation of students becoming professional singers would be necessary to answer this question.  
+Subtle differences were found for acoustic measures of shimmer and noise-to-harmonic ratio. These  findings also warrant further investigation. Future  study should be directed at evaluating SPR values  and acoustic parameters longitudinally during the  course of training. SPR and acoustic analysis may be  helpful tools to the singing teacher for immediate objective feedback of the singing voice.  
+CONCLUSION  
+SPR values did not differentiate sung versus spoken samples in this group of singing students, which  
+was not consistent with prior study in professional  singers. It is not known whether this may represent a  training effect and perhaps with longitudinal study of  the same students an improved energy source may be  found. Acoustic analysis of vocal samples demon 
+showed significantly higher noise values in spoken  versus sung samples, which is of questionable significance but may relate to technically supporting the  voice better while singing. This finding may highlight a potential discrepancy between singing techniques applied in vocal training that are not carried  over to the untrained spoken voice. In conclusion,  this study was not able to replicate the findings of  Omori et aP in utilizing SPR to differentiate sung  and spoken samples in singers. This may be related  to study population differences, professional versus  student singers. Future longitudinal study is needed  to determine if SPR changes or improves with training and if this measure along with acoustic parameters will help to quantify the desired singer's formant.  
+

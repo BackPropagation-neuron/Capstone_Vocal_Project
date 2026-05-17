@@ -11,3 +11,7 @@ __pycache__/
 *.wav
 *.mp3
 vocal_app.db
+
+# RAG 데이터베이스
+vocal_rag_db/
+

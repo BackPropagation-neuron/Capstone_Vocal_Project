@@ -16,18 +16,29 @@ class VocalFeatureExtractor:
         self.sound = parselmouth.Sound(self.y, self.sr)
 
     def extract_pitch_and_vibrato(self):
-        f0, voiced_flag, voiced_probs = librosa.pyin(self.y, fmin=librosa.note_to_hz('C2'), fmax=librosa.note_to_hz('C6'), sr=self.sr)
-        valid_f0 = f0[voiced_flag]
-        vibrato_rate = 0.0
-        if len(valid_f0) > 10:
-            trend = savgol_filter(valid_f0, window_length=11, polyorder=2)
-            detrended = valid_f0 - trend
-            peaks, _ = find_peaks(detrended)
-            if len(peaks) > 1:
-                hop_length = 512 / self.sr
-                avg_peak_interval = np.mean(np.diff(peaks)) * hop_length
-                vibrato_rate = 1.0 / avg_peak_interval if avg_peak_interval > 0 else 0
-        return {"f0_mean": np.nanmean(f0) if len(valid_f0) > 0 else 0, "f0_contour": np.nan_to_num(f0).tolist(), "vibrato_rate_hz": vibrato_rate}
+            f0, voiced_flag, voiced_probs = librosa.pyin(self.y, fmin=librosa.note_to_hz('C2'), fmax=librosa.note_to_hz('C6'), sr=self.sr)
+            valid_f0 = f0[voiced_flag]
+            vibrato_rate = 0.0
+
+            if len(valid_f0) > 10:
+                trend = savgol_filter(valid_f0, window_length=11, polyorder=2)
+                detrended = valid_f0 - trend
+                peaks, _ = find_peaks(detrended)
+                if len(peaks) > 1:
+                    hop_length = 512 / self.sr
+                    avg_peak_interval = np.mean(np.diff(peaks)) * hop_length
+                    vibrato_rate = 1.0 / avg_peak_interval if avg_peak_interval > 0 else 0
+
+            # [추가된 부분] voiced_probs 배열의 평균값을 구합니다. 
+            # NaN(계산 불가) 값이 있을 수 있으므로 np.nanmean을 사용하여 안전하게 평균을 냅니다.
+            voiced_probs_mean = float(np.nanmean(voiced_probs)) if voiced_probs is not None and len(voiced_probs) > 0 else 0.0
+
+            return {
+                "f0_mean": float(np.nanmean(f0)) if len(valid_f0) > 0 else 0.0, 
+                "f0_contour": np.nan_to_num(f0).tolist(), 
+                "vibrato_rate_hz": vibrato_rate,
+                "voiced_probs_mean": voiced_probs_mean  # [추가된 부분] 결과를 딕셔너리에 포함시킵니다!
+            }
 
     def extract_formants_lpc(self):
         """전체 오디오 구간에 대해 프레임 단위로 Sliding Window LPC 분석 (Formant Contours)"""
